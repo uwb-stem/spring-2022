@@ -1,0 +1,37 @@
+{
+    "csse": [
+        {
+            "time": "12:45 PM - 1:00 PM",
+            "projectId": "csse-7-1245",
+            "title": "Project Title",
+            "studentName": "Richard Ross",
+            "studentMajor": "CSSE",
+            "projectType": "Faculty Research",
+            "facultyAdvisor": "Mr. Mark Kochanski",
+            "posterLink": "./posters/csse/Richard Ross.jpg",
+            "abstract": " My capstone project has been a faculty sponsored software development project centered around accessing and retrieving data from a database. This is an ongoing development project started by Mark Kochanski and coordinated through the Microsoft Azure software development platform. The aspect of the program that I have been working on has involved enabling the Application Programming Interface (API) to retrieve the desired data from an existing database. I chose this project from a list of current projects in development because of the challenge involved with the various programming languages used. I had little experience with the different aspects of this project and decided each one would give me valuable experience as they are widely used in the software engineering industry.  \n\nThis project involved generating requests for information in the Structured Query Language (known as SQL) used by the database. These requests had to be programmed into the API in a secure manner and be properly formatted to retrieve the results. The API was programmed in the C# coding language which was new to me. Upon satisfactory retrieval of the database Schema information, the results needed to be displayed to the user through the user interface. The Interface of this project was programmed in JavaScript and utilized the React development library. Both JavaScript and the React elements that we used in this project were also new to me, and along with C#, required a certain amount of training to become familiar with the basics and methodologies for their proper use. The time and effort familiarizing myself with these was and important experience as it will most likely mimic the experience of joining new companies and projects and getting up to speed on new languages and platforms. \n\n I was able to successfully get the API to access the database and return the schema information of the databases. For the front end of the software, I programed the user interface so that a user can see the available database and choose a desired option, which would then expand into a list of tables, and then a table of the columns each one contains. After getting the Database Schema page working well, I spent time integrating the functions for retrieving that information into a separate page that allows the user to input that information into a relational Algebra tool. Getting the different components of this project working was an important experience, but the time spent familiarizing myself with new languages and tools was even more so.  I believe my career will involve many similar situations where I will need to adapt as quickly as possible."
+        },
+        {
+            "time": "1:00 PM - 1:15 PM",
+            "projectId": "csse-7-100",
+            "title": "How Anyone Can Get Into",
+            "studentName": "Ryan Khamneian",
+            "studentMajor": "CSSE",
+            "projectType": "Faculty Research",
+            "facultyAdvisor": "Mr. Mark Kochanski",
+            "posterLink": "./posters/ac/khamneian_ryan.png",
+            "abstract": "My capstone project was a contribution to the research of Professor Mark Kochanski and Dr. David Socha. They are building a canvas course which involves earning badges through modules for technology that will actually be used in internships and industry that we do not currently learn in school such as Azure DevOps. My work was to create modules for Data Structures and Algorithms for technical interviews. The reason is that in order to acquire these internships and fulltime jobs, you need to be able to pass new grad technical interviews which are problems to be solved using one data structure and one algorithm from a set. My qualification for this contribution was that I received offers from everywhere I interviewed including Facebook, and the offer I accepted from Google. The result of my work are 5 modules which include links to resources to read first, 24 YouTube videos I created, and an exam for each module. Within each video, I cover a specific concept that comes up frequently in these interviews and then link a bunch of problems that are very similar to be completed on the students own time as that is how they get practice and pattern recognition which is really all this comes down to. The significance is that these new graduate positions have such a low acceptance rate (Google’s is less than 1%), when the interviews are actually quite easy when you know how to study for them. The problem is that there aren’t any good guides on how to study for them in order."
+        },
+        {
+            "time": "1:15 PM - 1:30 PM",
+            "projectId": "csse-7-115",
+            "title": "Philips Ultrasound Application Development",
+            "studentName": "Thomas Ellett",
+            "studentMajor": "CSSE",
+            "projectType": "Internship",
+            "facultyAdvisor": "Mr. Mark Kochanski",
+            "posterLink": "./posters/ac/ellett_thomas.jpg",
+            "abstract": "Philips is a multinational company that produces a wide range of products from household items to healthcare device. I was employed at Philips in March and that marked the start of my career as a software engineer. During my employment at Philips, I contributed to the deployment for an application called Lumify which allowed portable ultrasound probes to communicate with mobile devices. There were technical challenges that came with development on this project, but there were also many other challenges or new topics that I learned such as how to properly document for a heavily regulated industry or how to understand and acquire stakeholders’ requirements for the application.\n\nThis project was started by an intern and was brought to the market to help provide a cheaper and portable solution for ultrasound scanning. Lumify broadens the accessibility to ultrasound technology significantly with cheaper prices while providing high image quality and commonly used features for medical professionals or students. This is significant since Lumify can provide hospitals or emergency services with rapid care for patients and more teaching institutions can provide training to students at an affordable price. The portability of the probe also contributes to the accessibility of this device since it allows for patient care in environments that can’t support large ultrasound machines. \n\nOverall, my current experience at Philips has been insightful, enjoyable, and challenging. As a result from these experiences, I have gained more technical skills to support my future career in software development, more insight on regulated industries such as the medical device industry, and a new perspective as a working professional."
+        }
+    ]
+}

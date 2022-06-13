@@ -1,0 +1,92 @@
+{
+    "csse": [
+        {
+            "time": "12:45 PM - 1:00 PM",
+            "projectId": "csse-1-1245",
+            "title": "Docker Containers for Various Apps",
+            "studentName": "Andrew Li",
+            "studentMajor": "CSSE",
+            "projectType": "Faculty Research",
+            "facultyAdvisor": "Dr. Hazeline Asuncion",
+            "posterLink": "./posters/csse/Andrew Li.png",
+            "abstract": "For my capstone, I chose to do research with Professor Asuncion, where my main objective was to create Docker containers on Linux for ApacheJena and Codeontology, as well as tools graduate students have developed to analyze code patterns.\n\nOne of the main reasons for this assignment was because installing the necessary frameworks and tools to get Codeontology up and running on a system was tedious and required manual setups every time a user wanted to use the program. Another problem was that some users were facing installation issues that would be hard to troubleshoot because they were new case-by-case issues that were unique only to their systems. A solution to this issue was to create a Docker container that could be used by everyone who wanted to use the software, so users would not need to worry about the installation process, and everything would be consistent for troubleshooting. I chose to use a Linux based container because the programs required an operating system to work, as well as being more stable than Windows.\n\nAfter ten weeks of development, I successfully created a Linux Docker container that would handle the installation and setup of ApacheJena and Codeontology, where the user would only have to input two simple commands and the tools would be installed successfully and available for usage on any operating system. This container would greatly decrease any issues regarding installations and program usage because developers can now debug problems on one consistent platform."
+        },
+        {
+            "time": "1:00 PM - 1:15 PM",
+            "projectId": "csse-1-100",
+            "title": "Towards Lightweight Detection of SDP’s: Detecting SDP’s in Large Open Source Projects",
+            "studentName": "Anna Waldron",
+            "studentMajor": "CSSE",
+            "projectType": "Faculty Research",
+            "facultyAdvisor": "Dr. Hazeline Asuncion",
+            "posterLink": "./posters/csse/Anna Waldron.jpg",
+            "abstract": "Security design patterns are important tools for cybersecurity teams and software developers to manage security in new software and in legacy code. The goal of the larger research project is towards lightweight detection of SDP’s in source code. Security design patterns serve as a general-purpose solution to secure software engineering problems. Current publications for security design patterns are aimed towards the development stage of software, and not for maintenance or support stages of software. This research project addresses this issue to enable identification of existing security design patterns in legacy code to be compared with new security requirements.\n\nThe tools and detection algorithm tested in this research helps in creating an easier to use SDP detection algorithm. Debugging issues with essential software’s used in the algorithm and compiling open-source projects were primary tasks I conducted. Previous research focused on testing design patterns like object-oriented design patterns which has a confirmed success rate of about 70% accuracy. The current known way of searching for security design patterns in source code is done through manual detection. This entails reading through source code, documentation, README files, and code comments to find evidence of a security design pattern in use. The research I conducted was to further test tools and an SDP detection algorithm currently being developed to detect security design patterns in source code. Testing involved manually detecting security design patterns in large open source and using software tools to export RDF triples to run sparql queries on to test searching for specific security design patterns in large open-source projects. My research was done to test the capabilities of the detection algorithm on very large open-source projects. By the end of my testing, I discovered the current limitations of the tools used, and the detection algorithm, and developed improved instructions on using the detection algorithm. "
+        },
+        {
+            "time": "1:15 PM - 1:30 PM",
+            "projectId": "csse-1-115",
+            "title": "Adversarial Machine Learning",
+            "studentName": "Allan Genari-Gaarden",
+            "studentMajor": "CSSE",
+            "projectType": "Faculty Research",
+            "facultyAdvisor": "Dr. Brent Lagesse",
+            "posterLink": "./posters/csse/Allan Gaarden.png",
+            "abstract": "Machine learning models have not thoroughly been tested with regards to robustness and security. There are several different types of attacks that can be performed on machine learning models which will cause them to not function as intended. This project focused specifically on machine learning models that classify images. However, many of the concepts revolving around models for images can be transferred to models that work with other categories, such as noise classification. The attacks that are performed can manipulate model so that the model misclassifies images for the attacker’s benefit. These attacks can be damaging and go completely unnoticed because of the current general lack of model robustness and security.\n\nAn end-to-end program was developed, capable of first creating the files needed and ultimately giving the best security recommendations possible while accounting for operational constraints. The files necessary for the program can either be created by the user manually from scratch, loaded directly, or loaded and modified as needed. There are multiple features to help in the creation of files, including autocomplete textboxes to aid the user with filling out the forms more quickly and accurately. The recommendations generated are based on the model data given and will meet or exceed the desired constraints given.\n\nIn addition to the program itself, since the program can still be expanded, documentation was crafted to support the future development of this project. One of the main targets for expansion is to port this project to a web service, enabling greater access for users. This would allow us to implement even more useful features such as users being able to share results publicly and contribute to our data collection."
+        },
+        {
+            "time": "1:30 PM - 1:45 PM",
+            "projectId": "csse-1-130",
+            "title": "Secure Crowdsensing: Keeping User Information Safe Through the Block Chain",
+            "studentName": "Joshua Medvinsky",
+            "studentMajor": "CSSE",
+            "projectType": "Faculty Research",
+            "facultyAdvisor": "Dr. Brent Lagesse",
+            "posterLink": "./posters/csse/Joshua Medvinsky.jpg",
+            "abstract": "This capstone project involved using crowdsensing is to obtain information on the noise levels of the campus and utilizing the blockchain to keep user data safe. An application was created to allow the user to report the location and level of noise that they observed. The next obstacle was to find a practical way to store this data within the blockchain.\n\nThere are several risks with storing information on the blockchain, if there are vulnerabilities within the contract it is easy to exploit. The source code on the blockchain is publicly accessible and viewable by anyone. It is also very expensive to store large amounts of user data within the blockchain. It is far more practical to store the information offline in a Merkle Tree but protect its integrity by storing the hash in the blockchain. \n\nTo overcome I implemented a Merkle tree to store user data. The location data is stored in the leaf of the tree, and only the root hash is stored in the contract.  The contract can be used to verify that any leaf data (if presented with Merkle proof) can be verified by the contract that it is part of the authorized Merkle tree (i.,e and was not forged). The above approach enables anyone to verify the integrity of the data set (via merkle proof and root hash on contract), while mitigating any storage cost, and exposure of the dataset."
+        },
+        {
+            "time": "1:45 PM - 2:00 PM",
+            "projectId": "csse-1-145",
+            "title": "IT Infrastructure Development Internship – Zumiez INC, Lynnwood",
+            "studentName": "Geovany Henein",
+            "studentMajor": "CSSE",
+            "projectType": "Internship",
+            "facultyAdvisor": "Dr. Brent Lagesse",
+            "posterLink": "./posters/csse/Geovanny Henein.png",
+            "abstract": "For my capstone project, I worked at Zumiez INC Lynnwood as an IT infrastructure developer. Zumiez Inc. is an American multinational specialty clothing store founded by Thomas Campion and Rick Brooks. During this internship, I worked on many things including developing current Zumiez applications, migrating Zumiez applications to the cloud, finding better solutions to the business, and provide Home Office and Distribution center world class solutions regarding hardware, phones, network, application, and web-based applications.\n\nThese things were done in order to give the user a better user experience and creates new ways for customers and employees that makes them more efficient, moving Zumiez applications to the cloud helped us bypass most of the problems that we faced using Zumiez’s local servers and allowed AWS and Azure to maintain it.\n\nThe result of these solutions and developments is that they gave the user a better experience working with applications like O365 while giving them a better efficiency migrating away from the old tools that they were using, this allowed the users to have a more work efficient tools and workplace that allows them to be more unified and efficient.\n\nThe migration of Zumiez applications to the cloud was essential because we wanted to ensure user satisfaction and ease of mind while using the tools that Zumiez offers without the problems that they were facing all the time like server downtime. If the employees keep facing issues while using Zumiez’s tools they will start to give up and their work ethic will decrease effecting the business negatively. Developing new solutions like this ensures that work is more efficient and increases the profitability of the business.\n\nMy experience at Zumiez INC was valuable since I learnt a variety of development, programming, and problem-solving abilities that I would not have learned if I had not taken advantage of this chance."
+        },
+        {
+            "time": "2:00 PM - 2:15 PM",
+            "projectId": "csse-1-200",
+            "title": "Employment @ Amazon",
+            "studentName": "Yaniv Schwartz",
+            "studentMajor": "CSSE",
+            "projectType": "Internship",
+            "facultyAdvisor": "Dr. Brent Lagesse",
+            "posterLink": "./posters/csse/Yaniv Schwartz.jpg",
+            "abstract": "During the capstone, I built a system that detected when a customer wasn’t using a database at all and scaled it down. It also detected when they started using it again and scaled it up. It had the constraints that we don’t have false negatives (i.e. scaling down a database when it is being used), and that scaling up when a customer starts using a database is quick. Also, databases that are scaled down are still available (i.e. no cold start).\n\nThis was for cost reduction purposes, as customers who weren’t using databases weren’t being charged for the resources to keep it up and running. For example, a curious customer might make a database, do the tutorial, and forget to delete the database. We will keep that database running at high availability, as that is part of our SLA (service level agreement) as a serverless platform. However, there’s some optimizations we can do internally, that don’t impact availability substantially, but do reduce cost, for customers that aren’t using their database at all.\n\n In terms of the mechanism, one of the most important parts was sending a signal from the data plane, which handles actions that the customer is taking, and the control plane, which manages scaling. For this portion I built an API. I also had to build metrics, dashboards, and alarms to monitor the health of this notification system.\n\n The result is that we have reduced costs for customers that aren’t using their databases. This reduced cost allows the team as a whole to be more profitable, and allows us to spend more money in other areas, such as expanding to new regions, developing other features and products, etc."
+        },
+        {
+            "time": "2:15 PM - 2:30 PM",
+            "projectId": "csse-1-215",
+            "title": "Aspire Testing Tool",
+            "studentName": "Nicholas Martin",
+            "studentMajor": "CSSE",
+            "projectType": "Individual Project",
+            "facultyAdvisor": "Dr. Brent Lagesse",
+            "posterLink": "./posters/csse/Nicholas Martin.png",
+            "abstract": "The problem at hand was having a physical card game to be tested by multiple people living at a distance that made sitting down together and playtesting the game itself an impossibility. The solution chosen, of many, was to digitize the game so it could be tested regardless of physical distance. What was decided to be made wasn’t a game itself but a tool to test the mechanics of the game. As such, it needed ease of modification to the cards and speed of testing as opposed to animations and sound effects. \n\nTo fulfill these requirements, we chose to have all the cards loaded into the program after launch as loose text files, which are easy to modify. Lack of animations reduced visual interaction and intuitiveness, but it also sped up the testing sessions, allowing us to perform more tests in a shorter timeframe, which was the goal of this tool.\n\nUnfortunately, the scale of this program was underestimated, and it could not be completed with just one developer in ten forty-hour weeks. However, it is close to completion with all of the major components functioning and should only need two more weeks for everything to be functioning as designed. The major cause of delay was building image assets for the cards which took about a week and a half total to accomplish on its own, something we had not accounted for. In fact, these images hinder the modifiability aspect by requiring the image file to be changed along with the text file. To remedy this, an extra week or two may be used to build a system for the tool to generate the images based on the data in the text files.\n\nEven in its incomplete state, this tool has already allowed the two sponsors geographically removed from our lead designers to get a much better feel for the game they are assisting design for, which was the sole purpose of this program’s existence. Once it is complete and further testing is accomplished, they will be able to give input and opinions towards the future of the game in development is well."
+        },
+        {
+            "time": "2:30 PM - 2:45 PM",
+            "projectId": "csse-1-230",
+            "title": "Chassis Chaser",
+            "studentName": "Bradley Knorr",
+            "studentMajor": "CSSE",
+            "projectType": "Current Employer",
+            "facultyAdvisor": "Ms. Nancy Kool",
+            "posterLink": "./posters/csse/Bradley Knorr.png",
+            "abstract": "For my capstone project, I worked as a software engineer with Kenworth, the leading global semi-truck manufacturer, to create a website called Chassis Chaser to track all the trucks being built in their nearly dozen factories worldwide. \n\nThe purpose of this project was to save time for factory workers and managers. Before this project, certain information would need to be found manually on the mainframe, and finding any one piece of this information could take anywhere from minutes to even hours. Having all the data consolidated into one place also gives them the ability to track issues and changes over time, which is useful for plant managers to monitor and evaluate plant operations.\n\nTo do this, I first needed to parse the configuration files, log files, and databases with the information we needed for the website. This data includes engine information, ECU (Electronic Control Unit) software versions, and software test results. This data is then periodically put into a database that I designed from scratch. Once we had near-live data available in the database, we were able to design and build the website to create a visualization the information.\n\nFor this project, we used a SQL database, C# backend, and Angular front end. These are company defaults, and I was familiar with C# and SQL, so it was a smooth transition. Some of the biggest problems we ran into across the entire project were speed issues. We had so many files to parse, sometimes over a million. There are also millions of rows and complex SQL queries to execute from our database to populate the website. We needed to come up with strategies to limit the amount of time that tasks took to run. The common solutions were to make the tasks multi-threaded, do bulk insertions into the database, or split up tasks into only the parts that the user needed to see at that moment.\n\nChassis Chaser is still in the beta stage, but the managers who have tested it have been excited to have all this information available to them. Once the project is released to production, Chassis Chaser will help find major issues such as buggy software updates. My project manager estimated that my project could save the company $5 million over the next 5 years.\n\nOverall, this project provided me with a great opportunity. I gained real-world development experience that prepared me for the rest of my career. Finally, I was able to build a project from the ground up with every piece: a front-end website, backend API and services, and a database. Building every piece myself and integrating them all together helped me really understand how an entire project comes together."
+        }                   
+    ]
+}
